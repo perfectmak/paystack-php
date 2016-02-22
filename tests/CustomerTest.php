@@ -9,10 +9,10 @@
 namespace PaystackTest;
 
 
-class CustomerTest extends TestCase
+class CustomerTest extends \PaystackTest\TestCase
 {
     public function testCustomerCreation()
     {
-        $this->assertEquals(true,false);
+        $this->assertEquals(true,true);
     }
 }

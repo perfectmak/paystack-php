@@ -1,5 +1,5 @@
 {
-	"name": "perfectmak/paystack",
+	"name": "perfectmak/paystack-php",
     "type": "library",
     "description": "Paystack Library for PHP",
     "keywords": ["paystack","payment"],
