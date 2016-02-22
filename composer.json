@@ -1,0 +1,29 @@
+{
+	"name": "perfectmak/paystack",
+    "type": "library",
+    "description": "Paystack Library for PHP",
+    "keywords": ["paystack","payment"],
+    "homepage": "https://github.com/Seldaek/monolog",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Perfect Makanju",
+            "email": "damiperfect@gmail.com",
+            "homepage": "http://about.me/perfectmak",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "~5.4",
+        "nategood/httpful": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "lib",
+            "PaystackTest\\": "test"
+        }
+    }
+}
