@@ -24,6 +24,9 @@
         "psr-4": {
             "": "lib",
             "PaystackTest\\": "test"
-        }
+        },
+        "classmap": [
+            "tests/TestCase.php"
+        ]
     }
 }

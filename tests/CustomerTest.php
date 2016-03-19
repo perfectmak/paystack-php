@@ -9,7 +9,7 @@
 namespace PaystackTest;
 
 
-class CustomerTest extends \PaystackTest\TestCase
+class CustomerTest extends TestCase
 {
     public function testCustomerCreation()
     {
