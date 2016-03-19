@@ -13,4 +13,4 @@ matrix:
 install: composer install --no-interaction --prefer-source
   
 script:
-  - phpunit
+  - php vendor/bin/phpunit -c phpunit.xml
